@@ -90,7 +90,7 @@ a:hover{
 
 .card_img img{
     /* max-width: 500px; */
-    width: 260px;
+    width: 280px;
     border-radius: 1.5rem;
     box-shadow:rgb(230, 102, 247) 0px 1px 10px;
 }
@@ -294,7 +294,7 @@ textarea{
 
 
 
-@media (min-width:425px){
+@media (min-width:375px){
     .logo{
         width: 20px;
         margin-left: 25px;
@@ -311,7 +311,7 @@ textarea{
 
     .card_img img{
         /* max-width: 500px; */
-        width: 380px;
+        width: 350px;
         height: 530px;
     }
 
