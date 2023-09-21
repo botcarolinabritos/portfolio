@@ -2,178 +2,173 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/saturn.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="desarrollo web, miportfolio, html, css" />
+  <meta name="description" content="Mi primer Portfolio" />
+  <meta name="author" content="Carolina Britos" />
+  <link rel="shortcut icon" href="./assets/saturn.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio Carolina Britos</title>
 </head>
 
 <body>
-    <main>
-        <header class="menu_container">
-            <div class="logo">
-                <img src="./assets/saturn.png" alt="icon-saturn">
-            </div>
+  <main>
+    <header class="menu_container">
+      <div class="logo">
+        <img src="./assets/saturn.png" alt="icon-saturn" />
+      </div>
+      <nav class="menu_nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="#hola">Hola!</a></li>
+          <li><a href="#conocimientos">Mis conocimientos</a></li>
+          <li><a href="#proyectos">Mis proyectos</a></li>
+          <li><a class="menu_button" href="#contactame">Contactame</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            <!-- MENU HAMBURGUESA -->
+    <div class="card_container">
+      <picture class="card_img">
+        <img src="./assets/DreamShaper.jpg" alt="gamer-girl" />
+      </picture>
+    </div>
+    <div class="text_container">
+      <div>
+        <h4 class="text text_1">Mi nombre es</h4>
+      </div>
+      <div>
+        <h1 class="text text_2">Carolina Britos</h1>
+      </div>
+      <div>
+        <h4 class="text text_3">Soy</h4>
+      </div>
+      <div>
+        <h2 class="text text_4">Frontend Developer</h2>
+      </div>
+    </div>
+  </main>
 
-            <nav class="menu_nav">
-                <!-- <input type="checkbox" id="menu">
-                <label for="menu"> </label> -->
-                <ul>
-                    <li><a href="#hola">Hola!</a></li>
-                    <li><a href="#conocimientos">Mis conocimientos</a></li>
-                    <li><a href="#proyectos">Mis proyectos</a></li>
-                    <a class="menu_button" href="#contactame">Contactame</a>
-                </ul>
+  <!-- PRESENTACION SOBRE MI ¿QUE APRENDI? ¿QUE HAGO? 
+    COLOCAR BREVE DESCRIPCION SOBRE MI-->
 
-            </nav>
 
-        </header>
+  <section class="hola_section_container">
+    <div class="hola_container">
+      <a id="hola" href="#"></a>
+      <h2 class="hola_title">¡Hola!</h2>
+      <p class="hola_description">
+        Soy Carolina Britos, tengo 28 años, resido en Buenos Aires. Actualmente estudio Desarrollo Frontend en Ada Itw,
+        planeo perfeccionarme en CSS y ampliar mis conocimientos en este hermoso mundo IT.
+      </p>
+    </div>
+  </section>
+  <section class="conocimientos_section_container">
+    <div class="conocimientos_container">
+      <a id="conocimientos" href="#"></a>
+      <h2 class="conocimientos_title">Mis conocimientos</h2>
+    </div>
+  </section>
 
-        <div class="card_container">
-            <picture class="card_img">
-                <img src="./assets/DreamShaper.jpg" alt="gamer-girl">
-            </picture>
-        </div>
-        <div class="text_container">
-            <div>
-                <h4 class="text text_1">Mi nombre es</h4>
-            </div>
-            <div>
-                <h1 class="text text_2">Carolina Britos</h1>
-            </div>
-            <div>
-                <h4 class="text text_3">Soy</h4>
-            </div>
-            <div>
-                <h2 class="text text_4">Frontend Developer</h2>
-            </div>
-        </div>
-    </main>
-
-    <!-- PRESENTACION SOBRE MI ¿QUE APRENDI? ¿QUE HAGO? -->
-
-    <section class="hola_section_container">
-        <div class="hola_container">
-            <a id="hola" href="#"></a>
-            <h2 class="hola_title">
-                ¡Hola!
-            </h2>
-            <p class="hola_description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi rem fuga tempora in similique reiciendis
-                corrupti obcaecati. Natus, distinctio facere. Quod qui doloremque temporibus omnis et facere molestias
-                vel reprehenderit, possimus quisquam consectetur odio culpa mollitia voluptate porro dolores odit
-                similique inventore fugit obcaecati iure repellat, accusamus praesentium nobis! Officiis.
-            </p>
-        </div>
-    </section>
-    <section class="conocimientos_section_container">
-        <div class="conocimientos_container">
-            <a id="conocimientos" href="#"></a>
-            <h2 class="conocimientos_title">
-                Mis conocimientos
-            </h2>
-        </div>
-    </section>
-
-    <div class="images_conocimientos_container">
-        <div>
-            <div class="text_conocimientos">
-                <h5>HTML</h5>
-            </div>
-            <picture class="conocimientos img1">
-                <img src="./assets/img-conocimientos/html5(1).png" alt="imagen-html">
-            </picture>
-        </div>
-
-        <div>
-            <div class="text_conocimientos">
-                <h5>CSS</h5>
-            </div>
-            <picture class="conocimientos img2">
-                <img src="./assets/img-conocimientos/css.png" alt="imagn-css">
-            </picture>
-        </div>
-        <div>
-            <div class="text_conocimientos">
-                <h5>GIT</h5>
-            </div>
-            <picture class="conocimientos img3">
-                <img src="./assets/img-conocimientos/git.png" alt="imagen-git">
-            </picture>
-        </div>
-        <div>
-            <div class="text_conocimientos">
-                <h5>GitHub</h5>
-            </div>
-            <picture class="conocimientos img4">
-                <img src="./assets/img-conocimientos/github.png" alt="imagen-github">
-            </picture>
-        </div>
+  <div class="images_conocimientos_container">
+    <div>
+      <div class="text_conocimientos">
+        <h5>HTML</h5>
+      </div>
+      <picture class="conocimientos img1">
+        <img src="./assets/img-conocimientos/html5(1).png" alt="imagen-html" />
+      </picture>
     </div>
 
-    <section class="proyectos_section_container">
-        <div class="proyectos_container">
-            <a id="proyectos" href="#"></a>
-            <h2 class="proyectos_title">
-                Mis proyectos
-            </h2>
-            <div class="proyectos_card_link">
-                <a class="nairoby_link" href="https://botcarolinabritos.github.io/proyecto-nairoby/"><img
-                        src="./assets/nairoby.png" alt=""></a>
+    <div>
+      <div class="text_conocimientos">
+        <h5>CSS</h5>
+      </div>
+      <picture class="conocimientos img2">
+        <img src="./assets/img-conocimientos/css.png" alt="imagn-css" />
+      </picture>
+    </div>
+    <div>
+      <div class="text_conocimientos">
+        <h5>GIT</h5>
+      </div>
+      <picture class="conocimientos img3">
+        <img src="./assets/img-conocimientos/git.png" alt="imagen-git" />
+      </picture>
+    </div>
+    <div>
+      <div class="text_conocimientos">
+        <h5>GitHub</h5>
+      </div>
+      <picture class="conocimientos img4">
+        <img src="./assets/img-conocimientos/github.png" alt="imagen-github" />
+      </picture>
+    </div>
+  </div>
 
-                <a class="spongebob_link" href="https://botcarolinabritos.github.io/proyecto-spongebob/"><img
-                        src="./assets/project-spongebob.png" alt=""></a>
-            </div>
-        </div>
-    </section>
+  <section class="proyectos_section_container">
+    <div class="proyectos_container">
+      <a id="proyectos" href="#"></a>
+      <h2 class="proyectos_title">Mis proyectos</h2>
+      <div class="proyectos_card_link">
+        <a class="nairoby_link" href="https://botcarolinabritos.github.io/proyecto-nairoby/"><img
+            src="./assets/nairoby.png" alt="portada-nairoby" /></a>
 
-    <!-- FORMULARIO -->
+        <a class="spongebob_link" href="https://botcarolinabritos.github.io/proyecto-spongebob/"><img
+            src="./assets/project-spongebob.png" alt="portada-spongebob" /></a>
+      </div>
+    </div>
+  </section>
 
-    <form action="">
-        <div class="contactame-form-group">
-            <a id="contactame" href="#"></a>
-            <h2>Contactame</h2>
-        </div>
-        <div class="form-group">
-            <label for="">Nombre:</label>
-            <input type="text">
-        </div>
-        <div class="form-group">
-            <label for="">Email:</label>
-            <input type="email" name="" id="">
-        </div>
-        <div class="form-group">
-            <label for="">Mensaje:</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>
-        <div class="form-group">
-            <input type="submit" value="Enviar">
-        </div>
+  <!-- FORMULARIO -->
+
+  <form action="">
+    <div class="contactame-form-group">
+      <a id="contactame" href="#"></a>
+      <h2>Contactame</h2>
+    </div>
+    <div class="form-group">
+      <label for="">Nombre:</label>
+      <input type="text" />
+    </div>
+    <div class="form-group">
+      <label for="">Email:</label>
+      <input type="email" name="" id="" />
+    </div>
+    <div class="form-group">
+      <label for="">Mensaje:</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Enviar" />
+    </div>
+  </form>
+
+  <footer class="footer_container">
+    <div class="logos_container">
+      <a href="https://www.linkedin.com/in/carolina-britos-baa42a28b/"><img src="./assets/img-logos-footer/linkedin.png"
+          alt="logo-linkedin" /></a>
+
+      <a href="https://github.com/botcarolinabritos"><img src="./assets/img-logos-footer/github.png"
+          alt="logo-github" /></a>
+
+      <a
+        href="https://www.facebook.com/people/Carolina-Carol/pfbid026VM6yPt9BNfGfjzEQSkmBu3dG2XYP86sYL9zw7YJjCcYuuKk1eRDqv1TAntP9moGl/?mibextid=ZbWKwL"><img
+          src="./assets/img-logos-footer/facebook.png" alt="logo-facebook" /></a>
+    </div>
+
+    <div class="copy_container">
+      <p>&copy;2023 Desarrollado por Carolina Britos</p>
+    </div>
+  </footer>
 
 
-    </form>
+  <script src="https://kit.fontawesome.com/c8861d6fe9.js" crossorigin="anonymous"></script>
 
-
-    <footer class="footer_container">
-        <div class="logos_container">
-            <a href="https://www.linkedin.com/in/carolina-britos-baa42a28b/"><img
-                    src="./assets/img-logos-footer/linkedin.png" alt="logo-linkedin"></a>
-
-            <a href="https://github.com/botcarolinabritos"><img src="./assets/img-logos-footer/github.png"
-                    alt="logo-github"></a>
-
-            <a
-                href="https://www.facebook.com/people/Carolina-Carol/pfbid026VM6yPt9BNfGfjzEQSkmBu3dG2XYP86sYL9zw7YJjCcYuuKk1eRDqv1TAntP9moGl/?mibextid=ZbWKwL"><img
-                    src="./assets/img-logos-footer/facebook.png" alt="logo-facebook"></a>
-        </div>
-
-        <div class="copy_container">
-            <p>&copy;2023 Desarrollado por Carolina Britos</p>
-        </div>
-    </footer>
 </body>
 
 </html>
